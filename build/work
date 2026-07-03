@@ -1,0 +1,21 @@
+
+
+name: Build
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - run: npm i --legacy-peer-deps
+      - run: npm run lint
+      - run: npm test -- --forceExit --detectOpenHandles
+        env:
+          CI: true
+      - uses: codecov/codecov-action@v1
