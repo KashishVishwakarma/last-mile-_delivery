@@ -38,3 +38,45 @@ The Last Mile Delivery Tracker is designed to simplify the delivery process from
 - Interactive map
 - Pickup and destination markers
 - Estimated delivery time (ETA)
+- ## 📁 Project Structure
+
+```text
+Last-Mile-Delivery-Tracker/
+│
+├── .github/
+│   └── workflows/
+│       ├── build.yml
+│       ├── commit.yml
+│       ├── directory.yml
+│       └── map.yml
+│
+├── temp/
+│
+├── README.md
+├── Screenshot-2026-07-03-223546.png
+├── app.json
+├── App.tsx
+├── config.json
+├── eslint.json
+├── extend.json
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── release.config.js
+```
+
+### 📂 Folder Description
+
+| File/Folder | Description |
+|-------------|-------------|
+| `.github/workflows/` | GitHub Actions workflows for build and automation |
+| `temp/` | Temporary project files |
+| `App.tsx` | Main React/React Native application component |
+| `app.json` | Application configuration |
+| `config.json` | Project configuration settings |
+| `package.json` | Project dependencies and scripts |
+| `package-lock.json` | Locked dependency versions |
+| `.gitignore` | Files ignored by Git |
+| `README.md` | Project documentation |
+| `release.config.js` | Release and versioning configuration |
+| `Screenshot-2026-07-03-223546.png` | Project screenshot |
