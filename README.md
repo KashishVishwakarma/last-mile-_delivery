@@ -82,5 +82,5 @@ Last-Mile-Delivery-Tracker/
 | `Screenshot-2026-07-03-223546.png` | Project screenshot |
 
 project link
-Frontend: https://last-mile-delivery-tracker-1-7kxo.onrender.com
+https://last-mile-delivery-tracker-1-7kxo.onrender.com
 
