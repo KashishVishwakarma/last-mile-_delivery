@@ -79,8 +79,6 @@ Last-Mile-Delivery-Tracker/
 | `.gitignore` | Files ignored by Git |
 | `README.md` | Project documentation |
 | `release.config.js` | Release and versioning configuration |
-| `Screenshot-2026-07-03-223546.png` | Project screenshot |
+| `Screenshot-2026-07-03-223546.png` | Project screenshot
 
-project link
-https://last-mile-delivery-tracker-1-7kxo.onrender.com
 
